@@ -1,0 +1,68 @@
+.bg-header-card {
+    background: #2D2C78;
+}
+
+.color-header-subtitle {
+    color: #3b7e9e
+}
+
+.card-header {
+    padding: 50px;
+}
+
+.color-body-title {
+    color: #4b5296;
+}
+
+.fwb {
+    font-weight: bold;
+}
+
+.text-light-card {
+    color: #707070 ;
+}
+
+.lda {
+    transform: rotate(35deg);
+    display: flex;
+    width: 145%;
+    border-style: solid;
+    margin-left: -40px;
+    margin-top: 45px;
+    z-index: 10;
+}
+
+hr {
+    height: 7px !important;
+    background-color: mediumblue !important;
+}
+
+.text-h3{
+    margin-top: -65px;
+}
+
+@media screen and (min-width: 360px) and (max-width: 575px) {
+    .lda{
+        transform: rotate(30deg);
+        width: 80%;
+        margin-left: 30px;
+        margin-top: 45px;
+        z-index: 10;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 991px) {
+    .lda{
+        transform: rotate(60deg);
+        width: 300%;
+        margin-left: -60px;
+        margin-top: 65px;
+        z-index: 10;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .lda{
+        margin-left: -25px;
+    }
+}
